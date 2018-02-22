@@ -8,8 +8,8 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-function loadParms() {
-
+function loadParm(parmValue) {
+    var parmValue = getParameterByName(parmValue);
     var ul = document.getElementById("parms");
-    ul.appendChild(document.createElement("li").appendChild(document.createTextNode("item1")));
+    ul.appendChild(document.createElement("li").appendChild(document.createTextNode(parmValue)));
 }

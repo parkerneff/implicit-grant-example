@@ -10,8 +10,21 @@
 <body>
 <h1>hello</h1>
 <script src="js/parseParms.js"></script>
-<script>
+
+<div id="mainContent">
+    <p>My Parms</p>
+    <ul id="parms">
+
+    </ul>
+
+</div>
+<script type="application/javascript">
     console.log("Hello world");
-    console.log(getParameterByName("name"));</script>
+    console.log(getParameterByName("name"));
+    loadParms();
+</script>
+
+
 </body>
+
 </html>

@@ -7,3 +7,9 @@ function getParameterByName(name, url) {
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
+
+function loadParms() {
+
+    var ul = document.getElementById("parms");
+    ul.appendChild(document.createElement("li").appendChild(document.createTextNode("item1")));
+}

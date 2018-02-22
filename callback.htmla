@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/parseParms.js" />
+
+
+</head>
+<body>
+<h1>hello</h1>
+<script>
+    alert("hello world");
+    console.log(getParameterByName("name"));
+</script>
+</body>
+</html>
